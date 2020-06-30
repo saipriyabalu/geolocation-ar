@@ -31,7 +31,8 @@
         gps-entity-place="latitude: 29.64177; longitude: -95.66019;"></a-text>
       <a-camera gps-camera rotation-reader> </a-camera>	 -->
 	 
- <a-box material="color: yellow" gps-entity-place="latitude: 29.64177; longitude: -95.66019;"/>	 
+ <a-box material="color: yellow" look-at="[gps-camera]" gps-entity-place="latitude: 29.64177; longitude: -95.66019;"/>
+ <a-camera gps-camera rotation-reader> </a-camera>
 	 
   <a-entity camera></a-entity>  
   </a-scene>
